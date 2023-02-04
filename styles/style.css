@@ -15,7 +15,6 @@
   align-items: center;
   background-color: #f2f2f2;
   position: relative;
-  color: #000000;
 }
 
 .logo_place_header {
@@ -33,6 +32,7 @@
   line-height: 96px;
   font-size: 102px;
   font-weight: 600;
+  color: #000000;
 }
 
 .header__subtitle {
@@ -45,6 +45,7 @@
   line-height: 25px;
   font-size: 18px;
   font-weight: normal;
+  color: #000000;
 }
 
 .header__link {
@@ -72,27 +73,19 @@
   top: 64px;
 }
 
-/* и элемента с модификатором вида ключ-значение */
-.table__cell_theme_dark {
-  width: 200px;
-  color: white;
-  margin-right: 0;
-  margin-top: 80px;
-}
-
 /* Секция description */
 
 .description {
   padding-top: 100px;
   display: flex;
   justify-content: center;
-  color: #000000;
 }
 
 .two-columns {
   display: flex;
   justify-content: space-between;
   width: 80%;
+  color: #000000;
 }
 
 .two-columns__brief {
@@ -128,22 +121,23 @@
 
 .digits {
   padding: 100px 0;
-  color: #000000;
 }
 
 .section-title {
-  min-width: 60%;
+  width: 60%;
   text-align: center;
-  margin: 0 0 20px;
+  margin: 0 auto 20px;
+  color: #000000;
   font-size: 60px;
   font-weight: 600;
   line-height: 1.15;
 }
 
 .section-subtitle {
-  min-width: 60%;
+  width: 60%;
   text-align: center;
-  margin: 0;
+  margin: 0 auto;
+  color: #000000;
   font-size: 24px;
   font-weight: normal;
   line-height: 34px;
@@ -160,6 +154,7 @@
 }
 
 .table__cell {
+  color: #000000;
   width: 250px;
   margin-top: 60px;
 }
@@ -177,4 +172,84 @@
   font-weight: normal;
   line-height: 1.2;
 
+}
+
+/* Секция feynman */
+
+.feynman {
+  position: relative;
+  height: 890px;
+  background-color: #f2f2f2;
+  background-image: url(../images/feynman.png);
+  background-position: bottom left;
+  background-repeat: no-repeat;
+}
+
+.feynman__title {
+  text-align: center;
+  margin: 0 auto;
+  color: #000000;
+  width: 648px;
+  font-size: 120px;
+  font-weight: 600;
+  line-height: 1.15;
+  padding-top: 100px;
+}
+
+.feynman__subtitle {
+  text-align: center;
+  margin: 70px auto 0;
+  color: #000000;
+  font-size: 36px;
+  font-weight: normal;
+  line-height: 51px;
+}
+
+.feynman__link {
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  right: 48px;
+  font-size: 36px;
+  font-weight: normal;
+  line-height: 51px;
+  text-decoration: none;
+  color: #2f80ed;
+}
+
+/* Секция kayfman */
+
+.kaufman {
+  background-color: #1f1f1f;
+  padding: 90px 0;
+  position: relative;
+  overflow: hidden
+}
+
+.section-title_theme_dark {
+  color: white;
+  z-index: 1;
+}
+
+.section-subtitle_theme_dark {
+  color: white;
+  z-index: 1;
+}
+
+.table__cell_theme_dark {
+  width: 200px;
+  color: white;
+  margin-right: 0;
+  margin-top: 80px;
+  z-index: 1;
+}
+
+.kaufman__triangle {
+  background-image: url(../images/kaufman-triangle.svg);
+  background-size: contain;
+  position: absolute;
+  right: -210px;
+  top: 0;
+  width: 877px;
+  height: 877px;
 }
