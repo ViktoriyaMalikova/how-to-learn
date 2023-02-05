@@ -17,7 +17,13 @@
   position: relative;
 }
 
+.logo {
+  width: 228px;
+  height: 32px;
+}
+
 .logo_place_header {
+  background-image: url(../images/logo_place_header.svg);
   position: absolute;
   top: 30px;
   left: 64px;
@@ -27,7 +33,7 @@
 .header__title {
   margin: 0;
   z-index: 2;
-  max-width: 730px;
+  width: 730px;
   margin-left: 64px;
   line-height: 96px;
   font-size: 102px;
@@ -41,7 +47,7 @@
   z-index: 2;
   bottom: 30px;
   left: 64px;
-  max-width: 388px;
+  width: 388px;
   line-height: 25px;
   font-size: 18px;
   font-weight: normal;
@@ -73,7 +79,7 @@
   top: 64px;
 }
 
-/* Секция description */
+/* Description */
 
 .description {
   padding-top: 100px;
@@ -174,7 +180,7 @@
 
 }
 
-/* Секция feynman */
+/* Feynman */
 
 .feynman {
   position: relative;
@@ -193,12 +199,12 @@
   font-size: 120px;
   font-weight: 600;
   line-height: 1.15;
-  padding-top: 100px;
+  padding: 100px 0 70px;
 }
 
 .feynman__subtitle {
   text-align: center;
-  margin: 70px auto 0;
+  margin: 0;
   color: #000000;
   font-size: 36px;
   font-weight: normal;
@@ -217,23 +223,22 @@
   color: #2f80ed;
 }
 
-/* Секция kayfman */
+/* Kayfman */
 
 .kaufman {
   background-color: #1f1f1f;
   padding: 90px 0;
   position: relative;
-  overflow: hidden
+  overflow: hidden;
+  z-index: 1;
 }
 
 .section-title_theme_dark {
   color: white;
-  z-index: 1;
 }
 
 .section-subtitle_theme_dark {
   color: white;
-  z-index: 1;
 }
 
 .table__cell_theme_dark {
@@ -252,4 +257,65 @@
   top: 0;
   width: 877px;
   height: 877px;
+  z-index: -1;
+}
+
+/* Footer */
+
+.footer {
+  box-sizing: border-box;
+  background-color: #1f1f1f;
+  color: white;
+  min-height: 350px;
+  display: flex;
+  justify-content: center;
+  padding: 60px 0 40px;
+}
+
+.footer__columns {
+  width: 90%;
+  display: flex;
+  justify-content: space-between;
+}
+
+.footer__column_content_copyright {
+  flex-basis: 711px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.logo_place_footer {
+  background-image: url(../images/logo_place_footer.svg);
+}
+
+.footer__author {
+  margin: 18px 0;
+  font-size: 18px;
+  font-weight: normal;
+  line-height: 25px;
+}
+
+.footer__column-heading {
+  margin: 0;
+  font-size: 18px;
+  font-weight: 600;
+  line-height: 30px;
+}
+
+.footer__column-links {
+  margin: 20px 0 18px;
+}
+
+.footer__column-link {
+  display: block;
+  text-decoration: none;
+  font-size: 18px;
+  font-weight: normal;
+  line-height: 30px;
+  color: white;
+}
+
+.fotter__cotial-icon {
+  margin-right: 10px;
 }
