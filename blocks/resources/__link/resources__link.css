@@ -2,6 +2,7 @@
   width: 100%;
   -webkit-transition: opacity .3s linear;
   transition: opacity .3s linear;
+  text-decoration: none;
 }
 
 .resources__link:hover {

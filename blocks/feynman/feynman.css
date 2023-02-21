@@ -5,4 +5,6 @@
   background-image: url(../../images/feynman/feynman.png);
   background-position: bottom left;
   background-repeat: no-repeat;
+  box-sizing: border-box;
+  background-size: 867px 637px;
 }
