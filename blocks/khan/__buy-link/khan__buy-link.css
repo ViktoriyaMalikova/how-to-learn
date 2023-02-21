@@ -4,6 +4,7 @@
   line-height: 42px;
   text-decoration: none;
   color: #2f80ed;
+  -webkit-transition: opacity .3s linear;
   transition: opacity .3s linear;
   align-self: flex-start;
 }

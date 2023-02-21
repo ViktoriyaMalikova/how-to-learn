@@ -3,6 +3,7 @@
   padding: 0;
   max-width: 920px;
   list-style: none;
+  display: -webkit-box;
   display: flex;
   flex-wrap: wrap;
   column-gap: 100px;

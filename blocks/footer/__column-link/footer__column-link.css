@@ -5,6 +5,7 @@
   font-weight: normal;
   line-height: 30px;
   color: white;
+  -webkit-transition: opacity .3s linear;
   transition: opacity .3s linear;
 }
 

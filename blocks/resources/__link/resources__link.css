@@ -1,5 +1,6 @@
 .resources__link {
   width: 100%;
+  -webkit-transition: opacity .3s linear;
   transition: opacity .3s linear;
 }
 

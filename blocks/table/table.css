@@ -3,7 +3,9 @@
   padding: 0;
   margin: 0 auto;
   list-style: none;
+  display: -webkit-box;
   display: flex;
+  -webkit-box-pack: justify;
   justify-content: space-between;
   flex-wrap: wrap;
 }
